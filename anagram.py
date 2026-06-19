@@ -1,7 +1,7 @@
 from collections import Counter
 
-a = "anagram"
-b = "nagaram"
+a = input()
+b = input()
 
 if Counter(a) == Counter(b):
     print("The two strings are anagrams.")
