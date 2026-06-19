@@ -1,5 +1,5 @@
 x = list(input().split())
 
-x = x[::-1]
+# x = x[::-1]
 
-print(*x)
+print(*x[::-1])
