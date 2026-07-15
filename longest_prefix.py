@@ -7,4 +7,4 @@ for i in range(len(x) - 1, 0, -1):
         string = x[:i]
         break
 
-print(string)
+print(len(string))
