@@ -9,9 +9,12 @@ def romanToInt(s):
         "M": 1000
     }
 
-    s = s.replace("IV", "IIII").replace("IX", "VIIII")
-    s = s.replace("XL", "XXXX").replace("XC", "LXXXX")
-    s = s.replace("CD", "CCCC").replace("CM", "DCCCC")
+    s = s.replace("IV", "IIII")
+    s = s.replace("IX", "VIIII")
+    s = s.replace("XL", "XXXX")
+    s = s.replace("XC", "LXXXX")
+    s = s.replace("CD", "CCCC")
+    s = s.replace("CM", "DCCCC")
 
     number = 0
 
