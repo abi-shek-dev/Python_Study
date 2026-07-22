@@ -1,6 +1,6 @@
 def zigzag(s , numrows):
 
-    if numrows == 1 or numrows > len(s):
+    if numrows == 1 or numrows >= len(s):
         return s
 
     rows = [""] * numrows
